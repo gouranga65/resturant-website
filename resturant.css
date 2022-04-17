@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#seperate{
+    padding-top: 30px;
+}
+#price1{
+    height: 90px;
+    width: 300px;
+    background-color: var(--yellow);
+    text-align: center;
+    /* padding-top: 30px; */
+    justify-items: center;
+    align-content: center;
+    border: 1px solid black;
+    display: grid;
+}
+#price2{
+    height: 90px;
+    width: 300px;
+    background-color: var(--yellow);
+    text-align: center;
+    padding-top: 30px;
+    border: 1px solid black;
+}
+#content{
+    padding-top: 40px;
+    padding-left: 45px;
+    
+}
+#child div{
+    padding-top: 20px;
+}
+#child h3{
+    height: 25px;
+    width: 150px;
+    text-align: center;
+    padding-top: 5px;
+    font-size: 15px;
+    font-family: fantasy;
+    background-color: var(--yellow);
+    word-spacing: 3px;
+    letter-spacing: 1px;
+}
+#img1 h2{
+    height: 40px;
+    width: 230px;
+    word-spacing: 3px;
+    letter-spacing: 3px;
+    padding-top: 13px;
+    font-size: 21px;
+    font-family: fantasy;
+    background-color: var(--yellow);
+    
+}
+#img1{
+    padding-top: 200px;
+    padding-left: 40px;
+    background-image: url(./img_1.jpg);
+    height: 400px;
+    background-size: 850px;
+    background-repeat: no-repeat;
+}
+:root{
+    --yellow:#ffc600;
+    --black:#272727;
+}
+#header{
+    display: flex;
+    column-count: 5;
+    column-gap: 9px;
+    padding-top: 50px;
+    padding-left: 45px;
+}
+#item1 a{
+    text-decoration: none;
+}
+#item2 a{
+    text-decoration: none;
+} 
+#item3 a{
+    text-decoration: none;
+}
+#item4 a{
+    text-decoration: none;
+}
+#item5 a{
+    text-decoration: none;
+}
+#item1{
+    height: 40px;
+    width: 230px;
+    text-align: center;
+    padding-top: 13px;
+    font-size: 20px;
+    font-family: fantasy;
+    background-color: var(--yellow);
+
+}
+#item2{
+    height: 40px;
+    width: 230px;
+    text-align: center;
+    padding-top: 13px;
+    font-size: 20px;
+    font-family: fantasy;
+    background-color: var(--yellow);
+}
+#item3{
+    height: 40px;
+    width: 230px;
+    text-align: center;
+    padding-top: 13px;
+    font-size: 20px;
+    font-family: fantasy;
+    background-color: var(--yellow);
+}
+#item4{
+    height: 40px;
+    width: 230px;
+    text-align: center;
+    padding-top: 13px;
+    font-size: 20px;
+    font-family: fantasy;
+    background-color: var(--yellow);
+}
+#item5{
+    height: 40px;
+    width: 230px;
+    text-align: center;
+    padding-top: 13px;
+    font-size: 20px;
+    font-family: fantasy;
+    background-color: var(--yellow);
+}
