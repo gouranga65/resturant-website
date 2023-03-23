@@ -5,60 +5,57 @@
 a {
   text-decoration: none;
 }
-#tacoimg img{
-  -webkit-box-shadow: 0px 0px 39px 0px rgba(0,0,0,0.78);
--moz-box-shadow: 0px 0px 39px 0px rgba(0,0,0,0.78);
-box-shadow: 0px 0px 39px 0px rgba(0,0,0,0.78);
+#price1 {
+  width: 25%;
+  position: absolute;
+  left: 70%;
+  bottom: 10%;
 }
-/* #price1{
-  display: flex;
-  flex-direction: column;
-} */
-#subprice1{
+
+#tacoimg img {
+  -webkit-box-shadow: 0px 0px 39px 0px rgba(0, 0, 0, 0.78);
+  -moz-box-shadow: 0px 0px 39px 0px rgba(0, 0, 0, 0.78);
+  box-shadow: 0px 0px 39px 0px rgba(0, 0, 0, 0.78);
+}
+#subprice1,
+#subprice2 {
   width: 300px;
   height: 130px;
   background-color: var(--yellow);
   text-align: center;
   padding-top: 30px;
 }
-#subprice2{
-  width: 300px;
-  height: 130px;
-  background-color: var(--yellow);
+#good {
+  height: 30px;
+  width: 150px;
+  font-size: 11px;
+  top: 120px;
+  padding-left: 9px;
+  padding-top: 5px;
+}
+#joint {
+  height: 40px;
+  width: 200px;
   text-align: center;
-  padding-top: 30px;
+  top: 100px;
+  padding-top: 10px;
 }
-#good{
-    height: 30px;
-    width: 150px;
-    background-color: var(--yellow);
-    font-size: 11px;
-    position: relative;
-    left: 60px;
-    top: 120px;
-    padding-left: 9px;
-    padding-top: 5px;
+#good,
+#joint {
+  background-color: var(--yellow);
+  position: relative;
+  left: 60px;
 }
-#joint{
-    height: 40px;
-    width: 200px;
-    text-align: center;
-    background-color: var(--yellow);
-    position: relative;
-    left: 60px;
-    top: 100px;
-    padding-top: 10px;
+#img1 {
+  background-image: url(./img_1.jpg);
+  background-repeat: no-repeat;
+  height: 400px;
+  background-size: 800px;
 }
-#img1{
-    background-image: url(./img_1.jpg);
-    background-repeat: no-repeat;
-    height: 400px;
-    background-size: 800px;
-}
-#content{
-    height: 800px;
-    background-color: white;
-    justify-content: space-between;
+#content {
+  height: 800px;
+  background-color: white;
+  justify-content: space-between;
 }
 #gallery {
   display: flex;
@@ -66,13 +63,15 @@ box-shadow: 0px 0px 39px 0px rgba(0,0,0,0.78);
   justify-content: space-between;
   height: 490px;
   align-content: space-between;
+  position: absolute;
+  top: 78em;
 }
 .lastimgs img {
   height: 220px;
   width: 220px;
-  -webkit-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
--moz-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75);
 }
 #break {
   text-align: center;
@@ -94,10 +93,11 @@ box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
   width: 1190px;
   height: 400px;
   background-color: white;
-  position: relative;
+  position: absolute;
   left: 45px;
   display: flex;
   gap: 20px;
+  top: 50em;
 }
 #img2 img {
   width: 450px;
@@ -135,17 +135,10 @@ h3 {
 #menu {
   display: flex;
   justify-content: space-around;
-  /* position: relative; */
+  position: absolute;
+  top: 100%;
+  left: 5%;
 }
-/* <h3>Pretty Good Tacos!</h3> */
-/* #price2 {
-  height: 90px;
-  width: 300px;
-  background-color: var(--yellow);
-  text-align: center;
-  padding-top: 30px;
-  border: 1px solid black;
-} */
 #content {
   padding-top: 40px;
   padding-left: 45px;
@@ -164,24 +157,6 @@ h3 {
   word-spacing: 3px;
   letter-spacing: 1px;
 }
-/* #img1 h2 {
-  height: 40px;
-  width: 230px;
-  word-spacing: 3px;
-  letter-spacing: 3px;
-  padding-top: 13px;
-  font-size: 21px;
-  font-family: fantasy;
-  background-color: var(--yellow);
-} */
-/* #img1 {
-  padding-top: 200px;
-  padding-left: 40px;
-  background-image: url(./img_1.jpg);
-  height: 400px;
-  background-size: 850px;
-  background-repeat: no-repeat;
-} */
 :root {
   --yellow: #ffc600;
   --black: #272727;
@@ -193,48 +168,10 @@ h3 {
   padding-top: 50px;
   padding-left: 45px;
 }
-#item1 a {
-  text-decoration: none;
-}
-#item2 a {
-  text-decoration: none;
-}
-#item3 a {
-  text-decoration: none;
-}
-#item4 a {
-  text-decoration: none;
-}
-#item5 a {
-  text-decoration: none;
-}
-#item1 {
-  height: 40px;
-  width: 230px;
-  text-align: center;
-  padding-top: 13px;
-  font-size: 20px;
-  font-family: fantasy;
-  background-color: var(--yellow);
-}
-#item2 {
-  height: 40px;
-  width: 230px;
-  text-align: center;
-  padding-top: 13px;
-  font-size: 20px;
-  font-family: fantasy;
-  background-color: var(--yellow);
-}
-#item3 {
-  height: 40px;
-  width: 230px;
-  text-align: center;
-  padding-top: 13px;
-  font-size: 20px;
-  font-family: fantasy;
-  background-color: var(--yellow);
-}
+#item5,
+#item1,
+#item2,
+#item3,
 #item4 {
   height: 40px;
   width: 230px;
@@ -244,12 +181,6 @@ h3 {
   font-family: fantasy;
   background-color: var(--yellow);
 }
-#item5 {
-  height: 40px;
-  width: 230px;
-  text-align: center;
-  padding-top: 13px;
-  font-size: 20px;
-  font-family: fantasy;
-  background-color: var(--yellow);
+.link:hover{
+  color: red;
 }
